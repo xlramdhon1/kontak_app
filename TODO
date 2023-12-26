@@ -1,0 +1,20 @@
+warna:
+  appbar: rgb(30, 31, 34), 1e1f22
+  body: rgb(49, 51, 56), 2b2d31
+
+how to use hex in flutter:
+  Color(0xFF),
+
+  Color(0xFF0461A8)
+
+Before:
+  style: Theme.of(context).textTheme.headline6,
+
+  colorScheme:
+    ColorScheme.fromSeed(seedColor: const Color(0xFF71BCF5))),
+
+    warna:
+      Color(0xFF0461A8)
+
+      Subtext:
+        ${item.email} / ${item.nomor}
