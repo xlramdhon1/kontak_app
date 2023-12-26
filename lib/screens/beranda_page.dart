@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kontak_app/screens/list.dart';
 import 'package:kontak_app/screens/bookmark_page.dart';
-import 'package:kontak_app/screens/login_page.dart';
+import 'package:kontak_app/main.dart';
 import 'package:kontak_app/screens/movie_page.dart';
 import 'package:kontak_app/screens/todo_page.dart';
 
@@ -91,7 +91,7 @@ class BerandaPage extends StatelessWidget {
                 Navigator.pop(context);
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const LoginPage()),
+                  MaterialPageRoute(builder: (context) => const MyApp()),
                 );
               },
             ),
